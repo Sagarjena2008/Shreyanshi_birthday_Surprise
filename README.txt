@@ -1,22 +1,18 @@
-SHREYANSHI (BHUMI) BIRTHDAY WEBSITE
+PHOTO FIX VERSION — SHREYANSHI (BHUMI)
 
-This website has three connected pages:
-1. index.html — welcome homepage
-2. wishes.html — birthday best wishes
-3. memories.html — photo memories gallery
+This ZIP contains three pages and the actual image files:
+- index.html = welcome
+- wishes.html = birthday wishes
+- memories.html = photo gallery
+- style.css = layout
+- assets/ = photos and poster artwork
 
-All photos are stored in the assets folder, and the Memories link opens the gallery with the photos included in this ZIP.
+To avoid missing photos on GitHub:
+1. Extract this ZIP.
+2. Upload the contents inside the extracted folder to the ROOT of your GitHub repository.
+3. Upload the entire assets folder with every image inside it.
+4. Preserve all filenames exactly (capital letters and extensions matter).
+5. GitHub Settings > Pages > Deploy from a branch > main > /(root) > Save.
+6. Open the published site and hard refresh with Ctrl+F5.
 
-TO PREVIEW:
-1. Extract the ZIP file.
-2. Open the extracted folder.
-3. Open index.html in a browser.
-
-TO PUBLISH ON GITHUB PAGES:
-1. Upload all files and the complete assets folder to the root of your GitHub repository.
-2. Go to Settings > Pages.
-3. Select Deploy from a branch.
-4. Choose the main branch and /(root), then Save.
-5. Wait for the published link to appear.
-
-IMPORTANT: Keep the assets folder and filenames unchanged so the photos stay connected.
+The gallery photo references are relative paths such as assets/1000059147.jpg.
